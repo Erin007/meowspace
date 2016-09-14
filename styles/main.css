@@ -65,9 +65,6 @@ div h1 {
   float: right;
 }
 
-main {
-  /*display: inline-block;*/
-}
 #top-cats img{
     border-radius: 100px;
     border: solid #E9967A 2px;
@@ -76,4 +73,17 @@ main {
 .line-break {
   color:  #b3cccc;
   width: 100%
+}
+
+.article-content {
+    float: right;
+    width: 90%;
+}
+.article-content p:nth-of-type(1):first-letter{
+  font-size: 2em
+}
+
+#social {
+  float: left;
+  width: 5%;
 }
