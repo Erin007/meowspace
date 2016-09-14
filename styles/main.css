@@ -1,0 +1,79 @@
+header, footer {
+  background-color: #E9967A;
+  text-align: center;
+  border-radius: 25px;
+  clear:both;
+}
+
+header h1{
+  font-size: 3.5em;
+}
+
+header ul li, footer ul li{
+  display: inline-block;
+  width: 5%
+}
+
+/* All Text to Helvetica */
+* {
+  font-family:'Ubuntu Condensed', sans-serif;
+  color: #51565C;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #008b8b;
+}
+
+/*Footer Disclaimer Text to be .5 em*/
+footer {
+  font-size: 0.5em
+}
+
+/* Remove Bullet Points from Header Navigation Links */
+li {
+  list-style-type: none;
+}
+
+.post-content p:nth-of-type(1):first-letter{
+  font-size: 2em
+}
+
+/* The First Image in every Article should have Rounded Corners*/
+article img:nth-of-type(1){
+  border-radius: 25px;
+}
+div {
+  width: 75%;
+  float: left;
+  margin-left: 2%
+}
+
+div h1 {
+  font-size: 2em;
+}
+
+#top-cats{
+  width: 20%;
+  margin-right: 2%;
+  border-left: solid #E9967A 2px;
+  text-align: center;
+  float: right;
+}
+
+main {
+  /*display: inline-block;*/
+}
+#top-cats img{
+    border-radius: 100px;
+    border: solid #E9967A 2px;
+}
+
+.line-break {
+  color:  #b3cccc;
+  width: 100%
+}
